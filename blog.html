@@ -1,81 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="utf-8">
-<title>Linux and opensource blog!</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!--[if lte IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-
-
+<title>Linux and opensource blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </head>
+<body>
 
-<body background="img/backgrounds-blue.jpg">
-
-<div id="pagewrap">
-
-	<div id="header">
-		<h1>Header</h1>
-		<p> Text </p>
-	</div>
-
-	<div id="content">
-		<h2>Blog posts</h2>
-		<p>text</p>
-		<p>text</p>
-		<p>text</p>
-		<p>text</p>
-		<p>text</p>
-		<p>text</p>
-		<p>text</p>
-		<p>text</p>
-		<p>text</p>
-		<p>text</p>
-    <div class="content">
-    <div class="comments">
-    <div class="editor">
-      <div class="editor-header">
-        <a href='#' data-role='bold'>B</a>
-        <a href='#' data-role='italic'>I</a>
-        <a href='#' data-role='underline'>U</a>
-        <a href='#' data-role='justifyleft'><i class="menu-left"></i></a>
-        <a href='#' data-role='justifycenter'><i class="menu-center"></i></a>
-        <a href='#' data-role='justifyright'><i class="menu-right"></i></a>
-      </div>
-      <div id="text" class="editor-content" contenteditable>
-        <p>Please comment here.</p>
-      </div>
-    </div>
-    <div class="insert-text">
-      <span class="loading">Loading...</span>
-      <span class="total-comment"></span>
-      <p>
-        <input type="submit" value="Comment" />
-      </p>
-    </div>
-    <div class="list-comments">
-      <div>Hello, this is the first comment.!</div>
-    </div>
-    </div>
-    </div>
-	</div>
-	<div id="sidebar">
-		<h3>Menu</h3>
-		<p><a href="index.html">Home</a></p>
-		<p><a href="blog.html">Blog</a></p>
-    <p><a href="about.html">About</a></p>
-    <p><a href="contact.html">Contact</a></p>
-	</div>
-
-	<div id="footer">
-		<h4>Footer</h4>
-	</div>
-
+<div class="header">
+  <a href="index.html"><img src="img/logo.png" alt="logo" width="256" height="256" /></a>
+  <p>A blog created by me.</p>
 </div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="blog.html">Blog</a>
+  <a href="about.html">About</a>
+  <a href="contact.html" class="right">Contact</a>
+</div>
+
+<div class="row">
+  <div class="main1">
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum conse<span id="dots">...</span><span id="more">ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum conse<span id="dots">...</span><span id="more">ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Copyright &copy; 2018</h2>
+</div>
+
 </body>
 </html>
