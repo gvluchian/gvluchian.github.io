@@ -80,15 +80,17 @@ body {
   background-color: white;
   padding: 20px;
   margin: auto;
+  max-width: 1000px;
 }
 
 /* Column for about page */
-.main1 {
+.main2 {
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
   padding: 20px;
   margin: auto;
+  max-width: 1000px;
 }
 
 /* Fake image, just for this example */
@@ -119,7 +121,9 @@ body {
     width: 100%;
   }
 }
-#more {display: none;}
+#more {
+  display: none;
+}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
 * {
