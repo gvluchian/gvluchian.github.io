@@ -125,8 +125,6 @@ body {
 #more {
   display: none;
 }
-/* Below line is write to use Google font online */
-@import "http://fonts.googleapis.com/css?family=Ubuntu";
 div#main{
 width:830px;
 height:650px;
