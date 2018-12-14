@@ -98,6 +98,16 @@ body {
   max-width: 1000px;
 }
 
+/* Column for second blog post*/
+.main3 {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #ccffff;
+  padding: 20px;
+  margin: auto;
+  max-width: 1000px;
+}
+
 /* Footer */
 .footer {
   padding: 50px;
