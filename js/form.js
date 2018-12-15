@@ -55,3 +55,8 @@ submitelement.setAttribute("type", "submit");
 submitelement.setAttribute("name", "dsubmit");
 submitelement.setAttribute("value", "Submit");
 createform.appendChild(submitelement);
+
+if (screen.width >= 900) {
+	// download complicated script
+	// swap in full-source images for low-source ones
+}
